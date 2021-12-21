@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,9 +14,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +23,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.active{
+  border-bottom: 4px solid rgb(22, 168, 179);
+
+}
+.navbar{
+  padding-bottom: 0;
+}
+.navbar-brand{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-transform:uppercase;
+ text-decoration-color: aqua;
+ text-overflow: ellipsis;
+
+
+}
+.navbar-nav{
+  align-content: flex-end;
+}
+.card-img-top{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 100px;
+  height: 200px;
 }
